@@ -1,0 +1,29 @@
+{
+  "name": "frontend-intern-challenge",
+  "version": "1.0.0",
+  "description": "teste chaordic frontend",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/main.scss   public/css/main.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexfeijo/frontend-intern-challenge.git"
+  },
+  "author": "Alexandro Flores Feijó",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexfeijo/frontend-intern-challenge/issues"
+  },
+  "homepage": "https://github.com/Alexfeijo/frontend-intern-challenge#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-minify": "^1.0.0"
+  },
+  "dependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^4.3.11"
+  }
+}
